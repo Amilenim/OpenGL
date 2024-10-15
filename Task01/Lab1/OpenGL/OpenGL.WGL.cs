@@ -4,7 +4,7 @@ using System.Drawing;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace Task01
+namespace Lab1
 {
     partial class OpenGL
     {

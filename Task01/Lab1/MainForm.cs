@@ -1,8 +1,8 @@
 ﻿using System.Windows.Forms;
-using static Task01.OpenGL;
+using static Lab1.OpenGL;
 
 
-namespace Task01
+namespace Lab1
 {
     public partial class MainForm : Form
     {

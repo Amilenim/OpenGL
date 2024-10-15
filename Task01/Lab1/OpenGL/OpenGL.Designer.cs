@@ -1,5 +1,5 @@
 ﻿
-namespace Task01
+namespace Lab1
 {
     partial class OpenGL
     {
