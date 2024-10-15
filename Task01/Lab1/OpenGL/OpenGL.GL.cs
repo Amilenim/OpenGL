@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace Task01
+namespace Lab1
 {
     public partial class OpenGL
     {

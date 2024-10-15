@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.Drawing;
 
-namespace Task01
+namespace Lab1
 {
     [ToolboxItem(true), ToolboxBitmap(typeof(RenderControl), "RenderControl.bmp"), DefaultEvent("")]
     partial class RenderControl
@@ -33,17 +33,17 @@ namespace Task01
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
+            SuspendLayout();
             // 
             // RenderControl
             // 
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.BackColor = System.Drawing.Color.SlateGray;
-            this.ForeColor = System.Drawing.Color.White;
-            this.Name = "RenderControl";
-            this.Size = new System.Drawing.Size(480, 300);
-            this.ResumeLayout(false);
-
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            BackColor = Color.SlateGray;
+            ForeColor = Color.White;
+            Name = "RenderControl";
+            Size = new Size(480, 300);
+            Render += RenderControl_Render;
+            ResumeLayout(false);
         }
 
         #endregion
